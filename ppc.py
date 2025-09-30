@@ -8,30 +8,27 @@
 # Message de bienvenu dans le jeu: "Bienvenue dans pierre, papier, ciseaux!", "Sauriez-vous battre l'ordinateur à ce jeu...?", peut aussi rajouter des lignes vides pour fairce jolie ou crréer un encadré.
 import time
 
+#Creer des prints qui affiche les messages
 #temps de pause entre le message de bienvenue et l'entree utilisateur
 print(f"------------------------------------------------")
 print(f"Bienvenue dans pierre, papier, ciseaux!")
-print(f"Saurais-tu battre l'ordinateur à ce jeu...?")
+print(f"Sauras-tu battre l'ordinateur à ce jeu...?")
 print(f"------------------------------------------------")
 time.sleep(3)
 
-#Creer des prints qui affiche les messages
 
 #Fonction de choix de l'utilisateur
 def choix_utilisateur():
-    choix = input("Choisissez pierre, papier ou ciseaux: ").lower
+    choix = input("Choisissez pierre, papier ou ciseaux: ").lower()
     return choix
     #Sans return, une fonction exécute son code mais ne renvoie aucune valeur (retourne None par défaut), donc pour récupérer et réutiliser une donnée (comme le choix de l’utilisateur), il faut impérativement utiliser return.
     #rajouter .lower pour tout convertir en miniscule?
 #print(choix_utilisateur())
 
 
-#Fonction de choix de l'ordinateur (aléatoire)
+#Fonction de choix de l'ordinateur (aléatoire)- partie Noor
 
 #Fonction de comparaison des résultats pour déterminier le vainqueur
-
-#def comparer(utilisateur, ordinateure):
-
 def comparer(utilisateur, ordinateur):
     if utilisateur == ordinateur:
         return "égalité"
@@ -43,7 +40,6 @@ def comparer(utilisateur, ordinateur):
         return "ordinateur"
     else:
         return "utilisateur"
-#print (comparer("pierre","ciseaux"))
 
 # Fonction du jeu:
 def jeu():
@@ -54,9 +50,9 @@ def jeu():
     print(f"Tu as choisis {utilisateur}, l'ordinateur a choisi {ordinateur}.")
     print (f"Le vainqueur est: {gagnant}")
 
-    if gagnant == "utilisateur"
+    if gagnant == "utilisateur":
         print(random.choice(phrases_victoires))
-    elif gagnant == "ordinateur"
+    elif gagnant == "ordinateur":
         print(random.choice(phrases_defaites))
     else:
         print(random.choice(phrases_egalite))
@@ -82,12 +78,12 @@ phrases_egalite=[
 "C'est beau l'harmonie… mais j'étais prêt à gagner."
 ]
 
+#Trouver une solution qui évite que la même phrase se répète....?
+
 #Tirage aléatoire:
-random.shuffle(phrases_victoires)
-random.shuffle(phrases_defaites)
-random.shuffle(phrases_egalite)
-#Pour éviter les répétition lors du tirage:
-print(phrases_victoires.pop())
+random.choice(phrases_defaites)
+# et pareil pour les autres...
+
 #Fonction pour le score
 
 #Une boucle qui arrête le jeu après 3 manches et affiche le score final
@@ -95,11 +91,8 @@ print(phrases_victoires.pop())
 
 #jeu ()
 #jeu() — c’est quoi ?
-
 #jeu() est le nom d’une fonction que tu as écrite dans ton programme.
-
 #Une fonction, c’est un petit bloc de code que tu peux réutiliser et exécuter quand tu veux, en l’appelant par son nom.
-
 #Que fait jeu() ?
 #Quand tu écris jeu() (avec les parenthèses) dans ton code, tu dis à l’ordinateur : « Hé, lance cette fonction appelée jeu ! »
 #L’ordinateur va alors exécuter tout le code à l’intérieur de la fonction jeu() : par exemple, demander ton choix, faire jouer l’ordinateur, comparer les résultats, afficher qui a gagné, etc.
@@ -108,3 +101,10 @@ print(phrases_victoires.pop())
 #Au lieu d’écrire tout le code à chaque fois, tu écris juste jeu() pour lancer une partie.
 
 #jeu() = « Lance le jeu ! »
+
+# Et coment quitter, arrêter de jouer?
+#-->voir la partei de Noor
+
+
+
+jeu()

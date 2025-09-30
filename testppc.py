@@ -38,7 +38,7 @@ def comparer(utilisateur, ordinateur):
 def jeu():
 
     print(f"------------------------------------------------")
-    print(f"Bienvenue dans pierre, papier, ciseaux!")
+    print(f"Bienvenue dans \x1B[3mpierre, papier, ciseaux\x1B[0m !")
     print(f"Saurais-tu battre l'ordinateur à ce jeu...?")
     print(f"------------------------------------------------")
     time.sleep(3)
@@ -58,7 +58,5 @@ def jeu():
             print(random.choice(phrases_defaites))
         else:
             print(random.choice(phrases_egalite))
-
-
 
 jeu()
