@@ -20,7 +20,7 @@ phrases_egalite=[
 
 import time
 def choix_utilisateur():
-    choix = input("Choisissez pierre, papier ou ciseaux: ")
+    choix = input("Choisissez pierre, papier ou ciseaux: ").lower()
     return choix
 
 def comparer(utilisateur, ordinateur):
@@ -43,17 +43,22 @@ def jeu():
     print(f"------------------------------------------------")
     time.sleep(3)
 
-    utilisateur = choix_utilisateur()
-    ordinateur = "papier"
-    gagnant = comparer(utilisateur, ordinateur)
-    print(f"Tu as choisis {utilisateur}, l'ordinateur a choisi {ordinateur}.")
-    print(f"Le vainqueur est: {gagnant}")
+    while True:
+        utilisateur = choix_utilisateur()
+        ordinateur = "papier"
+        gagnant = comparer(utilisateur, ordinateur)
+        print(f"Tu as choisis {utilisateur}, l'ordinateur a choisi {ordinateur}.")
+        time.sleep(2)
+        print(f"Le vainqueur est: {gagnant}")
 
-    if gagnant == "utilisateur":
-        print(random.choice(phrases_victoires))
-    elif gagnant == "ordinateur":
-        print(random.choice(phrases_defaites))
-    else:
-        print(random.choice(phrases_egalite))
+    
+        if gagnant == "utilisateur":
+            print(random.choice(phrases_victoires))
+        elif gagnant == "ordinateur":
+            print(random.choice(phrases_defaites))
+        else:
+            print(random.choice(phrases_egalite))
+
+
 
 jeu()
