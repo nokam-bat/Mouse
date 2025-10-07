@@ -34,7 +34,7 @@ choices = {
     "q" : "Quitter"
 }
 
-#Fonction qui génère le choix de le choix de l'utilisateur:
+#Fonction qui génère le choix de l'utilisateur:
 def get_choix_utilisateur():
     print("Faites votre choix: ")
     print("  c pour Caillou")
@@ -106,6 +106,7 @@ def jeu():
 
         elif gagnant == "Ordinateur":
             score_ordinateur += 1
+            time.sleep(2)
             print(f"Le vainqueur est: {gagnant}")
             time.sleep(1)
             print(random.choice(phrases_defaites))
