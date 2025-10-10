@@ -65,7 +65,7 @@ Elle affiche un message de bienvenue, puis permet à l’utilisateur de jouer pl
 
 ### Prérequis 
 
-Python 3.13 doit être installé sur votre ordinateur.
+Python 3.12 doit être installé sur votre ordinateur.
 
 ### Étapes 
 
@@ -84,7 +84,8 @@ Python 3.13 doit être installé sur votre ordinateur.
    python Feuille_Caillou_Ciseaux.py.
 ```
 ## Utilisation 
-Après avoir lancé le programme, un message d’accueil s'affichera et vous invitera à choisir parmi ces quatre options : *feuille*, *caillou*, *ciseaux* ou *quitter*. 
+Après avoir lancé le programme, un message d’accueil s'affichera et vous invitera à choisir parmi ces quatre options :*feuille*, *caillou*, *ciseaux* ou *quitter*.
+
 Le programme affichera ensuite : 
 - Le choix de l’utilisateur (si *quitter*, il affichera un message d’adieu) 
 - Le résultat de la manche 
@@ -96,9 +97,9 @@ Le programme affichera ensuite :
 
 Nous avons utilisé des bibliothèques python standards tels que : 
 
-- random:  pour générer des choix aléatoires pour l’ordinateur et choisir les messages personnalisés 
+- `random`:  pour générer des choix aléatoires pour l’ordinateur et choisir les messages personnalisés 
 
-- time : pour ajouter des pauses (laisser le temps de lire à l’utilisateur, simule une réflexion de l’ordinateur et effet de suspense) 
+- `time` : pour ajouter des pauses (laisser le temps de lire à l’utilisateur, simule une réflexion de l’ordinateur et effet de suspense) 
 
 ## Répartition du travail
 
@@ -115,7 +116,7 @@ De plus, la boucle `while` utilisé pour contrôler les entrées utilisateurs n�
 ## Améliorations possibles
 - Permettre à deux utilisateurs humains de jouer l’un contre l’autre. 
 - Ajouter une interface graphique en utilisant Tkinter.
-- Mettre en pakce un système pour éviter la répétition des messages personnalisés avant qu'ils soient tous utilisés.
+- Mettre en pakce un système pour éviter la répétition des messages personnalisés avant qu'ils ne soient tous utilisés.
   
 ## Conclusion
 Ce projet nous a permis de mettre en pratique les notions de base de Python tels que les fonctions, les conditions et les boucles. Nous avons appris à structurer un petit projet en groupe et à utiliser GitHub.
