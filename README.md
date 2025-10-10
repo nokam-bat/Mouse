@@ -6,7 +6,7 @@ Date de rendu: 12 octobre 2025
 
 # Feuille, Caillou, Ciseau 
 
-Un jeu en python permettant de jouer à ** Feuille, Caillou, Ciseaux** contre l’ordinateur. 
+Un jeu en python permettant de jouer à *Feuille, Caillou, Ciseaux* contre l’ordinateur. 
 
 ## Description 
 
@@ -86,9 +86,9 @@ Après avoir lancer le programme, un message d’accueil s'affichera et vous dem
 
 Nous avons utilisé des bibliothèques python standards tels que : 
 
-random:  pour générer des choix aléatoires pour l’ordinateur et choisir les messages personnalisés 
+- random:  pour générer des choix aléatoires pour l’ordinateur et choisir les messages personnalisés 
 
-time : pour ajouter des pauses (laisser le temps de lire à l’utilisateur, simule une réflexion de l’ordinateur et effet de suspense) 
+- time : pour ajouter des pauses (laisser le temps de lire à l’utilisateur, simule une réflexion de l’ordinateur et effet de suspense) 
 
 ## Répartition du travail
 
