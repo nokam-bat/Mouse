@@ -38,15 +38,25 @@ Elle affiche un message de bienvenue, puis permet à l’utilisateur de jouer pl
   - À chaque manche, elle récupère les choix de l’utilisateur et de l’ordinateur, détermine le gagnant, met à jour les scores, et affiche des messages personnalisés en fonction du résultat.
 
 ## Diagrammes de flux
-![Diagramme 1:get_choix_utlisateur()] (./images/)
+### Diagramme 1: get_choix_utilisateur
+<img width="600" alt="get_choix_utilisateur drawio" src="https://github.com/user-attachments/assets/144fac77-6218-4a4a-add5-73c97cfe04e6" />
+
+### Diagramme 2: get_choix_ordinateur
+<img width="600" alt="get_choix_ordi drawio" src="https://github.com/user-attachments/assets/9ed20010-9c84-4566-be0b-b9fc0d3c8257" />
+
+### Diagramme 3: determine_gagnant
+<img width="600" alt="determine_gagnant() drawio" src="https://github.com/user-attachments/assets/ca80448f-e2ac-4462-a5e5-6e4c2ec462fa" />
+
+### Diagramme 4: jeu
+<img width="600" alt="jeu() drawio" src="https://github.com/user-attachments/assets/aea03131-5047-43c4-a5ad-0b1a2df04de3" />
 
   
 ## Niveau de difficulté : 
-- Utilisation de boucles *while* pour gérer et contrôler les entrées   utlisateurs
+- Utilisation de boucles `while` pour gérer et contrôler les entrées   utlisateurs
 - Boucle principale pour le délourement du jeu
-- Utilisation de structures conditionnelles  (*if*, *else*, *elif*)
+- Utilisation de structures conditionnelles  (`if`, `else`, `elif`)
 - Utilisation d'un dictionnaire pour générer les choix
-- Importation et utilisation de bibliothèques standards Python *time* (pauses entre les messages) et *random* (choix aléatoire)
+- Importation et utilisation de bibliothèques standards Python `time` (pauses entre les messages) et `random` (choix aléatoire)
 - Utlisation de listes pour stocker et afficher les messages personnalisés
 - Suivi et mis à jour du score de l'utlisateur et de l'ordinateur
 - Organisation du code en fonctions claires et disctinctes 
@@ -98,6 +108,15 @@ Nous avons utilisé des bibliothèques python standards tels que :
 | Noor Kammoun                      | La fonction choix aléatoire de l’ordinateur, la gestion des saisies incorrectes de l'utilisateur, la création d'un dictionnaire pour les choix de l'utilisateur, la gestion des scores.                                                     |
 | Ensemble                | La fonction pour déterminer le résultat (victoire, défaite, égalité), les diagrammes de flux, les commentaires, la fonction du jeu.                   |
 
+## Ajustements du projet et choix réalisés
+Au départ, nous avions prévu de limiter chaque partie à trois manches maximum. Néanmoins, cela s’est avéré trop rigide au niveau de l’expérience utilisateur. Par la suite, la possibilité de quitter (q) a été implémentée.
+De plus, la boucle `while` utilisé pour contrôler les entrées utilisateurs n’est pas représenté dans les diagrammes de flux car elle alourdirait inutilement la structure Elle n’est pas nécessaire à la compréhension de la logique du programme tout comme les `time.sleep`. On souhaitait également trouver une façon d’éviter que les messages personnalisés d’une liste soient tous utilisées une fois avant de se répéter mais nous n’avons pas eu le temps.  
+
+## Améliorations possibles
+- Permettre à deux utilisateurs humains de jouer l’un contre l’autre. 
+- Ajouter une interface graphique en utilisant Tkinter.
+- Mettre en pakce un système pour éviter la répétition des messages personnalisés avant qu'ils soient tous utlisés.
+  
 ## Références
 Ce projet s'est appuyé sur les ressources suivantes: 
 - Documentation python du cours
