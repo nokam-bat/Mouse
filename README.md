@@ -35,12 +35,16 @@ Le projet consiste à créer une application simple en Python permettant à un u
 
 - **jeu()**:la boucle principale qui gère le déroulement complet du jeu.  
 Elle affiche un message de bienvenue, puis permet à l’utilisateur de jouer plusieurs manches contre l’ordinateur jusqu’à ce qu’il souahite s'arrêter. 
-À chaque manche, elle récupère les choix de l’utilisateur et de l’ordinateur, détermine le gagnant, met à jour les scores, et affiche des messages personnalisés en fonction du résultat.
+  - À chaque manche, elle récupère les choix de l’utilisateur et de l’ordinateur, détermine le gagnant, met à jour les scores, et affiche des messages personnalisés en fonction du résultat.
+
+## Diagrammes de flux
+![Diagramme 1:get_choix_utlisateur()] (./images/)
+
   
 ## Niveau de difficulté : 
 - Utilisation de boucles *while* pour gérer et contrôler les entrées   utlisateurs
 - Boucle principale pour le délourement du jeu
-- Utilisation de structures conditionnelles  (if, else, elif)
+- Utilisation de structures conditionnelles  (*if*, *else*, *elif*)
 - Utilisation d'un dictionnaire pour générer les choix
 - Importation et utilisation de bibliothèques standards Python *time* (pauses entre les messages) et *random* (choix aléatoire)
 - Utlisation de listes pour stocker et afficher les messages personnalisés
@@ -57,31 +61,26 @@ Python 3.13 doit être installé sur votre ordinateur.
 
 **Téléchargez le projet**: 
 
-1. Aller sur le dépôt GitHub (repository).
+1. Allez sur le dépôt GitHub (repository).
 
-2. Cliquez sur le bouton vert **Code** puis **Download ZIP**. 
+2. Cliquez sur le bouton vert **Code** puis sélectionnez **Download ZIP**. 
 
-3. Extrayez le fichier ZIP dans un dossier. 
+3. Extrayez le fichier ZIP dans un dossier de votre choix. 
 
-4. **Ouvrez le dossier du projet**	 
+4. **Ouvrez le dossier du projet**, par exemple dans un terminal ou via un éditeur de code comme VS Code ou Pycharm. 
 
-Par exemple dans un terminal ou via un éditeur de code comme VS Code ou Pycharm. 
-
-5. **Lancer le programme** avec la commande suivante dans le terminal : python Feuille_Caillou_Ciseaux.py. 
-
+5. **Lancez le programme** avec la commande suivante dans le terminal :
+```bash
+   python Feuille_Caillou_Ciseaux.py.
+```
 ## Utilisation 
-
-Après avoir lancer le programme, un message d’accueil s'affichera et vous demandera de choisir pami ces quatre options : feuille, caillou, ciseaux ou quitter. Il affichera ensuite : 
-
-- Le choix de l’utilisateur (si quitter, il affichera un message d’adieu) 
-
+Après avoir lancé le programme, un message d’accueil s'affichera et vous invitera à choisir parmi ces quatre options : *feuille*, *caillou*, *ciseaux* ou *quitter*. 
+Le programme affichera ensuite : 
+- Le choix de l’utilisateur (si *quitter*, il affichera un message d’adieu) 
 - Le résultat de la manche 
-
-- Un message personnalisé 
-
+- Un message personnalisé selon le résultat
 - Le score actuel 
-
-- On peut rejouer ou quitter 
+- La possibilité de rejouer ou de quitter 
 
 ## Bibliothèques utilisées : 
 
