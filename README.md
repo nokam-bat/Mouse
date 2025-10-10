@@ -42,7 +42,7 @@ Le projet consiste à créer une application simple permettant à un utilisateur
 
 - Utilisation de boucle 
 
-- Utilisation de structures conditionnelles  (if, else. elif) 
+- Utilisation de structures conditionnelles  (if, else, elif) 
 
 - Importation et utilisation de bibliothèques *time* et *random*
 
