@@ -94,7 +94,7 @@ Nous avons utilisé des bibliothèques python standards tels que :
 
 | Membre du groupe        | Tâches réalisées                                      |
 |-------------------------|-------------------------------------------------------|
-| Nadia Abdi Mohamoud               | La fonction de choix de l’utilisateur, la création de listes avec des messages défaites/gagnants/égalités et le message d’accueil, la rédaction du read.me.
+| Nadia Abdi Mohamoud               | La fonction de choix de l’utilisateur, la création de listes avec des messages défaites/gagnants/égalités et le message d’accueil, la rédaction du READ.me.
 | Noor Kammoun                      | La fonction choix aléatoire de l’ordinateur, la gestion des saisies incorrectes de l'utilisateur, la création d'un dictionnaire pour les choix de l'utilisateur, la gestion des scores.                                                     |
 | Ensemble                | La fonction pour déterminer le résultat (victoire, défaite, égalité), les diagrammes de flux, les commentaires, la fonction du jeu.                   |
 
