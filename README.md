@@ -1,50 +1,51 @@
-INI-03: Mini projet de groupe -  Feuille, Caillou, Ciseaux 
-
-Nadia Abdi Mohamoud et Noor Kammoun (SI-CA1a) 
-
-Date de rendu: 12 octobre 2025 
-
 # Feuille, Caillou, Ciseau 
+*Feuille, Caillou, Ciseaux* : un jeu classqiue codé en Python. 
 
-Un jeu en python permettant de jouer à *Feuille, Caillou, Ciseaux* contre l’ordinateur. 
+### Informations générales
+- Cours: INI-03 - Mini projet de groupe
+- Date de rendu: 12 octobre 2025 
+- Élèves: Nadia Abdi Mohamoud et Noor Kammoun (SI-CA1a) 
 
 ## Description 
-
-Le projet consiste à créer une application simple permettant à un utilisateur de jouer à feuille, caillou, ciseaux contre l’ordinateur. L’utilisateur entre son choix, l’ordinateur génère le sien aléatoirement, puis le programme affiche le résultat, un message personnalisé en fonction de celui-ci et le score de chaque manche. 
+Le projet consiste à créer une application simple en Python permettant à un utilisateur de jouer à *Feuille, Caillou, Ciseaux* contre l’ordinateur. L’utilisateur entre son choix, l’ordinateur génère le sien de manière aléatoire, puis le programme affiche le résultat, un message personnalisé en fonction de celui-ci et le score actuel.
 
 ## Fonctionnalités 
 
-- Message d’accueil affiché au début de la partie 
+- Affichage d'un message d’accueil au lancement du jeu
 
-- Entrée de l’utilisateur (feuille, caillou, ciseaux, quitter) 
+- Saisie du choix de l’utilisateur (*feuille*, *caillou*, *ciseaux* ou *quitter*) 
 
-- Choix de l’ordinateur généré aléatoirement 
+- Choix aléatoire de l’ordinateur 
 
 - Affichage du résultat 
 
-- Message personnalisé en fonction du résultat (victoire, défaite ou égalité) 
+- Affichage d'un message personnalisé en fonction du résultat (victoire, défaite ou égalité) 
 
-- Affichage du score utilisateur vs ordinateur cumulé 
+- Affichage du score cumulé entre l'utilisateur et l'ordinateur 
 
-- Possibilité de rejouer autant de fois que l’on souhaite
+- Possibilité de rejouer ou de quitter à tout moment
 
 ## Fonctions du programme 
 
-- Fonction choix de l’utilisateur 
+- **get_choix_utlisateur()**: affiche les choix de jeu et recupère le choix valide de l'utilisateur grâce une boucle de contrôle des saisies (*c*, *f*, *s* ou *q*).
 
-- Fonction choix de l’ordinateur 
+- **get_choix_ordinateur()**: génère aléatoire le choix de l'ordinateur parmi le choix *c*,*f* ou *s*.
 
-- Fonction pour déterminer le résultat (victoire, défaite, égalité)
+- **determine_gagnant(utilisateur, ordinateur)**: compare les choix de l'utlisateur et l'ordinateur puis retourne le résultat de la manche (victoire, défaite ou égalité)
 
-- Fonction du jeu 
-
+- **jeu()**:la boucle principale qui gère le déroulement complet du jeu.  
+Elle affiche un message de bienvenue, puis permet à l’utilisateur de jouer plusieurs manches contre l’ordinateur jusqu’à ce qu’il souahite s'arrêter. 
+À chaque manche, elle récupère les choix de l’utilisateur et de l’ordinateur, détermine le gagnant, met à jour les scores, et affiche des messages personnalisés en fonction du résultat.
+  
 ## Niveau de difficulté : 
-
-- Utilisation de boucle 
-
-- Utilisation de structures conditionnelles  (if, else, elif) 
-
-- Importation et utilisation de bibliothèques *time* et *random*
+- Utilisation de boucles *while* pour gérer et contrôler les entrées   utlisateurs
+- Boucle principale pour le délourement du jeu
+- Utilisation de structures conditionnelles  (if, else, elif)
+- Utilisation d'un dictionnaire pour générer les choix
+- Importation et utilisation de bibliothèques standards Python *time* (pauses entre les messages) et *random* (choix aléatoire)
+- Utlisation de listes pour stocker et afficher les messages personnalisés
+- Suivi et mis à jour du score de l'utlisateur et de l'ordinateur
+- Organisation du code en fonctions claires et disctinctes 
 
 ## Installation 
 
