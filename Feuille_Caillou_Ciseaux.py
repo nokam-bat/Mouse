@@ -1,7 +1,7 @@
 #En-tête:
 #Nadia Abdi Mohamoud et Noor Kammoun (SI-CA1a)
 #INI-03: Mini projet de groupe - Feuille , Caillou, Ciseaux
-#Date de rendu: 7 octobre 2025
+#Date de rendu: 12 octobre 2025
 
 
 #Importation des bibliothèques random et time
@@ -56,7 +56,7 @@ def get_choix_ordinateur():
     choix = random.choice(["c", "f", "s"])
     return choix
 
-#Fonction qui compare les choix et affiche le gagnant ou l'égalité:
+#Fonction qui compare les choix et affiche le gagnant, le perdant ou l'égalité:
 def determine_gagnant(utilisateur, ordinateur):
     if utilisateur == ordinateur:
         return "égalité"
@@ -123,4 +123,5 @@ def jeu():
         print(f"------------------------------------------------------")
 
 #Lancement du jeu:
+
 jeu()
