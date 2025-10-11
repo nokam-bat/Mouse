@@ -112,7 +112,7 @@ Nous avons utilisé des bibliothèques python standards tels que :
 
 ## Ajustements du projet et choix réalisés
 Au départ, nous avions prévu de limiter chaque partie à trois manches maximum. Néanmoins, cela s’est avéré trop rigide au niveau de l’expérience utilisateur. Par la suite, la possibilité de quitter (q) a été implémentée.
-De plus, la boucle `while` utilisé pour contrôler les entrées utilisateurs n’est pas représenté dans les diagrammes de flux car elle alourdirait inutilement la structure Elle n’est pas nécessaire à la compréhension de la logique du programme tout comme les `time.sleep`. On souhaitait également trouver une façon d’éviter que les messages personnalisés d’une liste soient tous utilisées une fois avant de se répéter mais nous n’avons pas eu le temps.  
+De plus, la boucle `while` utilisé pour contrôler les entrées utilisateurs n’est pas représenté dans les diagrammes de flux car elle alourdirait inutilement la structure. Elle n’est pas nécessaire à la compréhension de la logique du programme tout comme les `time.sleep`. On souhaitait également trouver une façon d’éviter que les messages personnalisés d’une liste soient tous utilisées une fois avant de se répéter mais nous n’avons pas eu le temps.  
 
 ## Améliorations possibles
 - Permettre à deux utilisateurs humains de jouer l’un contre l’autre. 
