@@ -100,7 +100,7 @@ Nous avons utilisé des bibliothèques python standards tels que :
 
 - `random`:  pour générer des choix aléatoires pour l’ordinateur et choisir les messages personnalisés 
 
-- `time` : pour ajouter des pauses (laisser le temps de lire à l’utilisateur, simule une réflexion de l’ordinateur et effet de suspense) 
+- `time` : pour ajouter des pauses (laisser le temps de lire à l’utilisateur, simule une réflexion de l’ordinateur et un effet de suspense) 
 
 ## Répartition du travail
 
