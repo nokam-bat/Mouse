@@ -87,7 +87,8 @@ Python 3.12 doit être installé sur votre ordinateur.
 Après avoir lancé le programme, un message d’accueil s'affichera et vous invitera à choisir parmi ces quatre options :*feuille*, *caillou*, *ciseaux* ou *quitter*.
 
 Le programme affichera ensuite : 
-- Le choix de l’utilisateur (si *quitter*, il affichera un message d’adieu) 
+- Le choix de l’utilisateur (si *quitter*, il affichera un message d’adieu)
+- Le choix de l'ordinateur
 - Le résultat de la manche 
 - Un message personnalisé selon le résultat
 - Le score actuel 
