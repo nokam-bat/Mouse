@@ -1,7 +1,7 @@
 #En-tête:
 #Nadia Abdi Mohamoud et Noor Kammoun (SI-CA1a)
 #INI-03: Mini projet de groupe - Feuille , Caillou, Ciseaux
-#Date de rendu: 12 octobre 2025
+#Date de rendu: 11 octobre 2025
 
 
 #Importation des bibliothèques random et time
@@ -125,3 +125,4 @@ def jeu():
 #Lancement du jeu:
 
 jeu()
+
