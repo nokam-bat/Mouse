@@ -116,7 +116,7 @@ De plus, la boucle `while` utilisé pour contrôler les entrées utilisateurs n�
 ## Améliorations possibles
 - Permettre à deux utilisateurs humains de jouer l’un contre l’autre. 
 - Ajouter une interface graphique en utilisant Tkinter.
-- Mettre en pakce un système pour éviter la répétition des messages personnalisés avant qu'ils ne soient tous utilisés.
+- Mettre en place un système pour éviter la répétition des messages personnalisés avant qu'ils ne soient tous utilisés.
   
 ## Conclusion
 Ce projet nous a permis de mettre en pratique les notions de base de Python tels que les fonctions, les conditions et les boucles. Nous avons appris à structurer un petit projet en groupe et à utiliser GitHub.
