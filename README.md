@@ -34,7 +34,7 @@ Le projet consiste à créer une application simple en Python permettant à un u
 - **determine_gagnant(utilisateur, ordinateur)**: compare les choix de l'utilisateur et l'ordinateur puis retourne le résultat de la manche (victoire, défaite ou égalité)
 
 - **jeu()**:la boucle principale qui gère le déroulement complet du jeu.  
-Elle affiche un message de bienvenue, puis permet à l’utilisateur de jouer plusieurs manches contre l’ordinateur jusqu’à ce qu’il souhaite s'arrêter. 
+  - Elle affiche un message de bienvenue, puis permet à l’utilisateur de jouer plusieurs manches contre l’ordinateur jusqu’à ce qu’il souhaite s'arrêter. 
   - À chaque manche, elle récupère les choix de l’utilisateur et de l’ordinateur, détermine le gagnant, met à jour les scores, et affiche des messages personnalisés en fonction du résultat.
 
 ## Diagrammes de flux
