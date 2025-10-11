@@ -127,7 +127,7 @@ Ce projet s'est appuyé sur les ressources suivantes:
 - Documentation GitHub: https://docs.github.com/fr/get-started/start-your-journey/hello-world  
 - Bibliothèques standards de python *time* et *random*
 - Camarade de classe: Amin Torrisi
-- Enseignants: Claude Rochat (CPNV), Julien Savary (CPNV) et Yassine Kammoun (HEIGVD)
+- Enseignants: Claude Rochat (CPNV), Julien Savary (CPNV) et Yassin Kammoun (HEIGVD)
 - Microsoft Copilot
 - ChatGPT
 - Draw.io
