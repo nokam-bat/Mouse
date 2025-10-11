@@ -27,14 +27,14 @@ Le projet consiste à créer une application simple en Python permettant à un u
 
 ## Fonctions du programme 
 
-- **get_choix_utilisateur()**: affiche les choix de jeu et récupère le choix valide de l'utilisateur grâce une boucle de contrôle des saisies (*c*, *f*, *s* ou *q*).
+- **get_choix_utilisateur()**: affiche les choix de jeu et récupère le choix valide de l'utilisateur grâce à une boucle de contrôle des saisies (*c*, *f*, *s* ou *q*).
 
-- **get_choix_ordinateur()**: génère aléatoirement le choix de l'ordinateur parmi le choix *c*,*f* ou *s*.
+- **get_choix_ordinateur()**: génère aléatoirement le choix de l'ordinateur parmi le choix *c*, *f* ou *s*.
 
 - **determine_gagnant(utilisateur, ordinateur)**: compare les choix de l'utilisateur et l'ordinateur puis retourne le résultat de la manche (victoire, défaite ou égalité)
 
 - **jeu()**:la boucle principale qui gère le déroulement complet du jeu.  
-Elle affiche un message de bienvenue, puis permet à l’utilisateur de jouer plusieurs manches contre l’ordinateur jusqu’à ce qu’il souhaite s'arrêter. 
+  - Elle affiche un message de bienvenue, puis permet à l’utilisateur de jouer plusieurs manches contre l’ordinateur jusqu’à ce qu’il souhaite s'arrêter. 
   - À chaque manche, elle récupère les choix de l’utilisateur et de l’ordinateur, détermine le gagnant, met à jour les scores, et affiche des messages personnalisés en fonction du résultat.
 
 ## Diagrammes de flux
@@ -87,7 +87,8 @@ Python 3.12 doit être installé sur votre ordinateur.
 Après avoir lancé le programme, un message d’accueil s'affichera et vous invitera à choisir parmi ces quatre options :*feuille*, *caillou*, *ciseaux* ou *quitter*.
 
 Le programme affichera ensuite : 
-- Le choix de l’utilisateur (si *quitter*, il affichera un message d’adieu) 
+- Le choix de l’utilisateur (si *quitter*, il affichera un message d’adieu)
+- Le choix de l'ordinateur
 - Le résultat de la manche 
 - Un message personnalisé selon le résultat
 - Le score actuel 
@@ -99,7 +100,7 @@ Nous avons utilisé des bibliothèques python standards tels que :
 
 - `random`:  pour générer des choix aléatoires pour l’ordinateur et choisir les messages personnalisés 
 
-- `time` : pour ajouter des pauses (laisser le temps de lire à l’utilisateur, simule une réflexion de l’ordinateur et effet de suspense) 
+- `time` : pour ajouter des pauses (laisser le temps de lire à l’utilisateur, simule une réflexion de l’ordinateur et un effet de suspense) 
 
 ## Répartition du travail
 
@@ -111,7 +112,7 @@ Nous avons utilisé des bibliothèques python standards tels que :
 
 ## Ajustements du projet et choix réalisés
 Au départ, nous avions prévu de limiter chaque partie à trois manches maximum. Néanmoins, cela s’est avéré trop rigide au niveau de l’expérience utilisateur. Par la suite, la possibilité de quitter (q) a été implémentée.
-De plus, la boucle `while` utilisé pour contrôler les entrées utilisateurs n’est pas représenté dans les diagrammes de flux car elle alourdirait inutilement la structure Elle n’est pas nécessaire à la compréhension de la logique du programme tout comme les `time.sleep`. On souhaitait également trouver une façon d’éviter que les messages personnalisés d’une liste soient tous utilisées une fois avant de se répéter mais nous n’avons pas eu le temps.  
+De plus, la boucle `while` utilisé pour contrôler les entrées utilisateurs n’est pas représenté dans les diagrammes de flux car elle alourdirait inutilement la structure. Elle n’est pas nécessaire à la compréhension de la logique du programme tout comme les `time.sleep`. On souhaitait également trouver une façon d’éviter que les messages personnalisés d’une liste soient tous utilisées une fois avant de se répéter mais nous n’avons pas eu le temps.  
 
 ## Améliorations possibles
 - Permettre à deux utilisateurs humains de jouer l’un contre l’autre. 
@@ -129,5 +130,7 @@ Ce projet s'est appuyé sur les ressources suivantes:
 - Camarade de classe: Amin Torrisi
 - Enseignants: Claude Rochat (CPNV), Julien Savary (CPNV) et Yassin Kammoun (HEIGVD)
 - Microsoft Copilot
+- ChatGPT
+- Draw.io
 - ChatGPT
 - Draw.io
