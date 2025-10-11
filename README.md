@@ -3,7 +3,7 @@
 
 ### Informations générales
 - Cours: INI-03 - Mini projet de groupe
-- Date de rendu: 12 octobre 2025 
+- Date de rendu: 11 octobre 2025 
 - Élèves: Nadia Abdi Mohamoud et Noor Kammoun (SI-CA1a) 
 
 ## Description 
