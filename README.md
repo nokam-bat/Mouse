@@ -29,7 +29,7 @@ Le projet consiste à créer une application simple en Python permettant à un u
 
 - **get_choix_utilisateur()**: affiche les choix de jeu et récupère le choix valide de l'utilisateur grâce à une boucle de contrôle des saisies (*c*, *f*, *s* ou *q*).
 
-- **get_choix_ordinateur()**: génère aléatoirement le choix de l'ordinateur parmi le choix *c*,*f* ou *s*.
+- **get_choix_ordinateur()**: génère aléatoirement le choix de l'ordinateur parmi le choix *c*, *f* ou *s*.
 
 - **determine_gagnant(utilisateur, ordinateur)**: compare les choix de l'utilisateur et l'ordinateur puis retourne le résultat de la manche (victoire, défaite ou égalité)
 
